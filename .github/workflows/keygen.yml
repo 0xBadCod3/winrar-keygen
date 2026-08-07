@@ -22,7 +22,7 @@ on:
 jobs:
   keygen:
     name: Generating License (${{ github.event.inputs.KEY_ENCODING }})
-    runs-on: windows-2022
+    runs-on: windows-2025
     env:
       KEY_ENCODING: ${{ github.event.inputs.KEY_ENCODING }}
       KEY_USERNAME: ${{ github.event.inputs.KEY_USERNAME }}
